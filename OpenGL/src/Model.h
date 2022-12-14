@@ -12,7 +12,7 @@ class Model {
 private:
     std::vector<Texture> loadedTextures;
     std::vector<Mesh> meshes;
-    std::string directory;
+    std::string directory; 
 
     void loadModel(std::string path);
     void processNode(aiNode* node, const aiScene* scene);
