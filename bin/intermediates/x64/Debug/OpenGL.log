@@ -1,0 +1,90 @@
+﻿  Application.cpp
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Application.cpp(242,33): warning C4305: '引数': 'double' から 'const float' へ切り詰めます。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Application.cpp(288,13): warning C4101: 'lampModel': ローカル変数は 1 度も使われていません。
+  Camera.cpp
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Camera.cpp(21,18): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Camera.cpp(59,28): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Camera.cpp(111,9): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Camera.cpp(112,11): warning C4244: '-=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Camera.cpp(135,13): warning C4244: '+=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  ErrorChecking.cpp
+  IndexBuffer.cpp
+  Lighting.cpp
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Lighting.cpp(153,105): warning C4305: '引数': 'double' から 'T' へ切り詰めます。
+          with
+          [
+              T=float
+          ]
+  Mesh.cpp
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(16,36): warning C4267: '引数': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(34,36): warning C4267: '引数': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(46,36): warning C4267: '引数': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(75,72): warning C4267: '引数': 'size_t' から 'const int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(79,85): warning C4267: '引数': 'size_t' から 'const int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(84,85): warning C4267: '引数': 'size_t' から 'const int' に変換しました。データが失われているかもしれません。
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\Mesh.cpp(91,2): warning C4267: '引数': 'size_t' から 'GLsizei' に変換しました。データが失われているかもしれません。
+  Model.cpp
+  Renderer.cpp
+  Shader.cpp
+  Texture.cpp
+  glm.cpp
+  stb_image.cpp
+  VertexArray.cpp
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\OpenGL\src\VertexArray.cpp(17,3): warning C4312: '型キャスト': 'unsigned int' からより大きいサイズの 'const void *' へ変換します。
+  VertexBuffer.cpp
+  コードを生成中...
+Application.obj : error LNK2019: 未解決の外部シンボル glewInit が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwInit が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwTerminate が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwWindowHint が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwCreateWindow が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwWindowShouldClose が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwPollEvents が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSetInputMode が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSetKeyCallback が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSetMouseButtonCallback が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSetCursorPosCallback が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSetScrollCallback が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwMakeContextCurrent が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSwapBuffers が関数 main で参照されました
+Application.obj : error LNK2019: 未解決の外部シンボル glfwSwapInterval が関数 main で参照されました
+Camera.obj : error LNK2019: 未解決の外部シンボル glfwGetKey が関数 "public: void __cdecl Camera::CameraUpdate(struct GLFWwindow *)" (?CameraUpdate@Camera@@QEAAXPEAUGLFWwindow@@@Z) で参照されました
+Camera.obj : error LNK2019: 未解決の外部シンボル glfwGetTime が関数 "public: void __cdecl Camera::CameraUpdate(struct GLFWwindow *)" (?CameraUpdate@Camera@@QEAAXPEAUGLFWwindow@@@Z) で参照されました
+IndexBuffer.obj : error LNK2001: 外部シンボル __glewBindBuffer は未解決です
+Mesh.obj : error LNK2001: 外部シンボル __glewBindBuffer は未解決です
+VertexBuffer.obj : error LNK2001: 外部シンボル __glewBindBuffer は未解決です
+IndexBuffer.obj : error LNK2001: 外部シンボル __glewBufferData は未解決です
+VertexBuffer.obj : error LNK2001: 外部シンボル __glewBufferData は未解決です
+IndexBuffer.obj : error LNK2001: 外部シンボル __glewGenBuffers は未解決です
+VertexBuffer.obj : error LNK2001: 外部シンボル __glewGenBuffers は未解決です
+Mesh.obj : error LNK2001: 外部シンボル __glewBindVertexArray は未解決です
+VertexArray.obj : error LNK2001: 外部シンボル __glewBindVertexArray は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewAttachShader は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewCompileShader は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewCreateProgram は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewCreateShader は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewDeleteShader は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewGetShaderInfoLog は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewGetShaderiv は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewGetUniformLocation は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewLinkProgram は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewShaderSource は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform1f は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform1i は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform1iv は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform2f は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform3f は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform3fv は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniform4f は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniformMatrix3fv は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUniformMatrix4fv は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewUseProgram は未解決です
+Shader.obj : error LNK2001: 外部シンボル __glewValidateProgram は未解決です
+Texture.obj : error LNK2001: 外部シンボル __glewActiveTexture は未解決です
+Texture.obj : error LNK2001: 外部シンボル __glewGenerateMipmap は未解決です
+VertexArray.obj : error LNK2001: 外部シンボル __glewEnableVertexAttribArray は未解決です
+VertexArray.obj : error LNK2001: 外部シンボル __glewVertexAttribPointer は未解決です
+VertexArray.obj : error LNK2001: 外部シンボル __glewGenVertexArrays は未解決です
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\Dependencies\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\Dependencies\GLEW\lib\Release\Win32\glew32s.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\Ian Sushruth Tauro\Desktop\OpenGL\OpenGL\bin\x64\Debug\OpenGL.exe : fatal error LNK1120: 47 件の未解決の外部参照
