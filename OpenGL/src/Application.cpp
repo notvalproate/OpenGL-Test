@@ -349,6 +349,8 @@ int main() {
 	return 0;
 }
 
+//Callback functions
+
 void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
 	if (firstMouse) {
 		lastxpos = xpos;
